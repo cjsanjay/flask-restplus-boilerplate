@@ -1,0 +1,8 @@
+For experimenting with the VM and getting a feel of service.
+1) Open URL <VmIp>:8888/api
+2) This will give the swagger api interface from where you can fire the requests,
+With two options:
+cpu_count: Number of CPUs to eat up
+num_mem_worker: Number of memory hogs, Each of the hog consumes 128MB of memory
+
+For sample python code see client.py
